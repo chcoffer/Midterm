@@ -1,12 +1,12 @@
 public class factorialcalculator {
     public static void main(String[] args) {
-        int num = 3;  // Predefined number to calculate factorial
+        int num = 8;  // Predefined number to calculate factorial
         int factorial = 1;
 
         for (int i = 1; i <= num; i++) { // Loop through numbers
             factorial *= i;  // Multiply current number
         }
 
-        System.out.println("Factorial of " + num + " is: " + factorial + " and don't forget it");
+        System.out.println("Factorial of " + num + " is: " + factorial + ", isn't this fun?");
     }
 }
